@@ -6,7 +6,7 @@ using DevExpress.UserSkins;
 using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 
-namespace LiteDbExplorer
+namespace LiteDBStudio
 {
     static class Program
     {
@@ -21,7 +21,7 @@ namespace LiteDbExplorer
 
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
-            Application.Run(new Form1());
+            Application.Run(new frmMain());
         }
     }
 }
